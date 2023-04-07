@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioskop</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="/material/unnamed-2.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="description" content="Bioskop">
+    <meta name="keywords" content="Film, Bioskop, Gledanje">
+    <meta name="author" content="Uros Perovic">
+    <script src="https://kit.fontawesome.com/9f7eda9118.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="/material/Untitled-1.jpg" alt="">
+    </header>
+    <button onclick="topFunction()" id="myButton" title="Go to top"><a href="#"><i class="fa-solid fa-up-long"></i></a></button>
+    <div class="wrapper">
+        <nav class="nav">
+            <ul>
+                <li>| <a href="/index.html">Home</a> | </li>
+                <li><a href="/about.html">About </a> | </li>
+                <li><a href="/gallery.html">Gallery </a> | </li>
+                <li><a href="/portfolio.html">Search </a> | </li>
+                <li><a href="/contactForm.html">Contact </a> | </li>
+            </ul>
+        </nav>
+
+
+        
+        <div class="kreatori">
+            <h1>ABOUT</h1>
+            <div class="kreatori">
+                <img id="imgme" src="./material/IMG_2981.JPG" alt="UROS PEROVIC"> 
+                <p>Uroš Perović</p>
+                <p>Kreator</p>
+            </div>
+        </div>
+         
+        <div class="portfolio">
+            <h1>O meni</h1>
+            <p id="pp"> Moje ime je Uroš Perović. Studiram na Univerzitetu Singidunum,
+                Kreirao sam ovaj sajt povodom finalnog kolokvijuma.
+                Imao sam prijašnjeg iskustva sa ovom materijom.
+                Broj indexa 2022/230034
+            </p>
+        </div>
+        <div class="w3-container">          
+            <div class="w3-panel w3-leftbar w3-light-grey">
+              <p class="w3-xlarge w3-serif"><i>"Deco, jel volite brzu vožnju?"</i></p>
+              <p>Mi nismo andjeli</p>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+           <li><a href="/index.html">HOME</a></li>
+           <li><a href="/about.html">ABOUT</a></li>
+           <li><a href="/contactForm.html">CONTACT</a></li>
+           <li><a href="/gallery.html">GALLERY</a></li>
+       </ul>
+       <ul>
+           <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+           <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
+           <li><a href="https://twitter.com/?lang=en" target="_blank">TWITER</a></li>
+           <li><a href="https://rs.linkedin.com/" target="_blank">LINKIN</a></li>
+       </ul>
+       </div>
+      
+       <p>&reg Uros Perovic 2022230034</p>
+    </footer>
+    <!-- <script src="/js/java.js"></script> -->
+    <script>
+        myID = document.getElementById("pp");
+
+        var myScrollFunc = function() {
+        var y = window.scrollY;
+        if (y >= 700) {
+            myID.className = "pp show"
+            
+            } else {
+            myID.className = "pp hide"
+            }
+        };
+
+        window.addEventListener("scroll", myScrollFunc);
+    </script>
+</body>
+</html>

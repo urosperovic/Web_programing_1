@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioskop</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="/material/unnamed-2.jpg">
+    <meta name="description" content="Bioskop">
+    <meta name="keywords" content="Film, Bioskop, Gledanje">
+    <meta name="author" content="Uros Perovic">
+    <script src="https://kit.fontawesome.com/9f7eda9118.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="/material/Untitled-1.jpg" alt="">
+    </header>
+    <button onclick="topFunction()" id="myButton" title="Go to top"><a href="#"><i class="fa-solid fa-up-long"></i></a></button>
+    <div class="wrapper">
+        <nav class="nav">
+            <ul>
+                <li>| <a href="/index.html">Home</a> | </li>
+                <li><a href="/about.html">About </a> | </li>
+                <li><a href="/gallery.html">Gallery </a> | </li>
+                <li><a href="/portfolio.html">Search </a> | </li>
+                <li><a href="/contactForm.html">Contact </a> | </li>
+            </ul>
+        </nav>
+        <body>
+            <form>
+                <table class="table">
+                    <tr>
+                        <th colspan="3">Ulaznice</th>
+                    </tr>
+                    <tr>
+                        <td>Ime and prezime:</td>
+                        <td>
+                            <input type="text" id="tblName" onkeyup="checkNameLastName();">
+                            <br/><span id="lName"><span>
+                        </td>
+                        <td>
+                            <button id="buttonn" onclick = "alert()" disabled >Check</button>
+                        </td>
+                    </tr>
+
+                </table>
+                <table class="table">
+                    <tr>
+                        <th colspan="3">Mail</th>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="text" id="mailm" onkeyup="checkMyMailAddress();">
+                            <br/><span id="lmail"><span>
+                        </td>
+                        <td>
+                            <button id="buttonm" onclick = "myFunction()" disabled >Check</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+
+
+
+        <div class="map">
+            <div class="map1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181140.11998080998!2d20.282512916193145!3d44.81515972780419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2sBelgrade!5e0!3m2!1sen!2srs!4v1666305079641!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="map2">
+                <h3>Beograd, Serbia</h3>
+                <p>Beograd, Serbija</p>
+            </div>
+            
+        </div>
+
+
+        
+    </div>
+    <footer>
+        <div class="footer">
+            <ul>
+           <li><a href="/index.html">HOME</a></li>
+           <li><a href="/about.html">ABOUT</a></li>
+           <li><a href="/contactForm.html">CONTACT</a></li>
+           <li><a href="/gallery.html">GALLERY</a></li>
+       </ul>
+       <ul>
+           <li><a href="https://www.facebook.com/" target="_blank">FACEBOOK</a></li>
+           <li><a href="https://www.instagram.com/" target="_blank">INSTAGRAM</a></li>
+           <li><a href="https://twitter.com/?lang=en" target="_blank">TWITER</a></li>
+           <li><a href="https://rs.linkedin.com/" target="_blank">LINKIN</a></li>
+       </ul>
+       </div>
+      
+       <p>&reg Uros Perovic 2022230034</p>
+    </footer>
+    <script src="/js/java.js"></script>
+</body>
+</html>
